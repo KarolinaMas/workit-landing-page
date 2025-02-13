@@ -6,7 +6,7 @@
 }
 
 body {
-  max-width: 375px;
+  /* max-width: 375px; */
   font-family: var(--regular-font);
   color: var(--primary-violet);
 }
@@ -178,4 +178,20 @@ nav {
 
 .apply-box p {
   line-height: 1.8;
+}
+
+/* footer */
+
+footer {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.soc-media-nav {
+  display: flex;
+  gap: 1.5rem;
 }
