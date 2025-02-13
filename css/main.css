@@ -24,7 +24,8 @@ header,
 
 .hero h1,
 .info h2,
-.info-item div {
+.info-item div,
+.apply-box h3 {
   font-family: var(--heading-font);
 }
 
@@ -69,6 +70,7 @@ nav {
 .hero h1 {
   font-size: 2.7rem;
   line-height: 1;
+  margin-bottom: 2.5rem;
 }
 
 .hero span {
@@ -81,7 +83,6 @@ nav {
   background-color: var(--primary-green);
   font-weight: 700;
   padding: 0.75em 2em;
-  margin-top: 2.5em;
 }
 
 .hero-img {
@@ -142,5 +143,39 @@ nav {
 }
 
 .info-item p {
+  line-height: 1.8;
+}
+
+/* apply section */
+
+.apply .container {
+  padding-top: 7rem;
+  margin: 0 auto;
+}
+
+.apply .container img {
+  width: 280px;
+  margin: 0 auto;
+  margin-bottom: -4rem;
+}
+
+.apply-box {
+  background-color: #24053e;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  z-index: 100;
+}
+
+.apply-box h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.apply-box p {
   line-height: 1.8;
 }
