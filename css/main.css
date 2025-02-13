@@ -57,7 +57,6 @@ nav {
   height: clamp(24px, calc(24px + (100vw - 375px) * (48 / 1065)), 72px);
   background: url("/img/ornamental.svg") no-repeat center bottom;
   background-size: 100% auto;
-  z-index: 100;
 }
 
 .hero h1 {
@@ -78,3 +77,15 @@ nav {
   padding: 0.75em 2em;
   margin-top: 2.5em;
 }
+
+.hero-img {
+  position: absolute;
+  bottom: -85px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 184px;
+  align-content: center;
+  z-index: 100;
+}
+
+/* info section */
