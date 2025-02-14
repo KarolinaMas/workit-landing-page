@@ -29,6 +29,22 @@ header,
   font-family: var(--heading-font);
 }
 
+.btn-primary {
+  color: var(--primary-violet);
+  background-color: var(--primary-green);
+  font-weight: 700;
+  padding: 0.75em 2em;
+  border: 2px solid var(--primary-green);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--primary-violet);
+  color: var(--primary-green);
+}
+
 /* header */
 
 header {
@@ -46,6 +62,12 @@ nav {
   border-bottom: 3px solid #44ffa1;
   font-family: var(--regular-font);
   font-size: 18px;
+  transition: color 0.3s ease-in;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  color: var(--primary-green);
 }
 
 /* hero section */
@@ -76,13 +98,6 @@ nav {
 .hero span {
   display: inline-block;
   border-bottom: 3px solid var(--primary-green);
-}
-
-.btn-primary {
-  color: var(--primary-violet);
-  background-color: var(--primary-green);
-  font-weight: 700;
-  padding: 0.75em 2em;
 }
 
 .hero-img {
